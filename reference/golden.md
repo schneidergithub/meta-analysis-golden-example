@@ -4,9 +4,9 @@ This analysis follows the [Golden example 1 calculation card](../studies.md#gold
 
 ## Evidence
 
-Each school reports 50 students per group and a sample standard deviation of 10 in both groups. Differences are practice minus rereading, in exam points.
+Each school reports 50 students per group and a sample standard deviation of 10 in both groups. Each difference is the practice-question group's average exam score minus the rereading group's average exam score.
 
-| School | Source | Practice mean | Rereading mean | Difference |
+| School | Source | Practice-question group average | Rereading group average | Difference in exam points |
 | --- | --- | ---: | ---: | ---: |
 | Oak | Table O1 | 76 | 70 | 6 |
 | Pine | Table P1 | 74 | 70 | 4 |
@@ -14,24 +14,34 @@ Each school reports 50 students per group and a sample standard deviation of 10 
 
 ## Analysis
 
-For each school:
+### 1. Calculate each school's result
 
-- `variance = (10 * 10) / 50 + (10 * 10) / 50 = 4`
-- `weight = 1 / 4 = 0.25`
+The differences are 6 points for Oak, 4 for Pine, and 8 for Maple.
 
-Combine the three schools:
+For each school, calculate:
 
-- `total_weight = 0.25 + 0.25 + 0.25 = 0.75`
-- `combined_difference = (0.25 * 6 + 0.25 * 4 + 0.25 * 8) / 0.75 = 6`
-- `combined_standard_error = square root of (1 / 0.75)`
-- `lower_limit = 6 - 1.96 * combined_standard_error`
-- `upper_limit = 6 + 1.96 * combined_standard_error`
+- Each group's contribution to the variance: (10 × 10) ÷ 50 = 2
+- **Variance:** 2 + 2 = 4
+- **Weight:** 1 ÷ 4 = 0.25
+
+### 2. Combine the schools
+
+- **Total weight:** 0.25 + 0.25 + 0.25 = 0.75
+- **Total of the three products:** (6 × 0.25) + (4 × 0.25) + (8 × 0.25) = 4.5
+- **Combined difference:** 4.5 ÷ 0.75 = 6 points
+
+### 3. Calculate the uncertainty
+
+- **Standard error:** square root of (1 ÷ 0.75)
+- **Margin:** 1.96 × square root of (1 ÷ 0.75)
+- **Lower limit:** 6 − margin, approximately 3.74 points
+- **Upper limit:** 6 + margin, approximately 8.26 points
 
 The combined difference is **6 points**, with an approximate **95% confidence interval of 3.74 to 8.26 points**. The interval limits are rounded here for display.
 
 ## Interpretation
 
-The practice-question groups scored higher on average. The interval describes uncertainty in the combined difference under the calculation card's common-effect and independence assumptions. It does not describe individual students' scores. These fictional results do not establish effectiveness in real schools.
+Across the three schools, the practice-question groups scored an estimated 6 points higher on average than the rereading groups. The interval describes uncertainty in the combined difference under the calculation card's assumptions. It does not describe individual students' scores. These fictional results do not establish effectiveness in real schools.
 
 ## Review
 

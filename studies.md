@@ -16,25 +16,51 @@ The tables report group averages and sample standard deviations.
 
 ## Golden example 1 calculation card
 
-This example measures whether you can extract the evidence and reproduce an analysis.
+Use all three schools.
 
+### 1. Calculate each school's result
 
+**Difference**
 
-For each school, calculate:
+Practice-question group's average score − rereading group's average score
 
-- `difference = practice_mean - rereading_mean`
-- `variance = (practice_standard_deviation * practice_standard_deviation) / practice_student_count + (rereading_standard_deviation * rereading_standard_deviation) / rereading_student_count`
-- `weight = 1 / variance`
+A positive difference means the practice-question group scored higher on average.
 
-Then combine the three schools:
+**Variance**
 
-- `total_weight = sum of the three weights`
-- `combined_difference = sum of (weight * difference) for the three schools / total_weight`
-- `combined_standard_error = square root of (1 / total_weight)`
-- `lower_limit = combined_difference - 1.96 * combined_standard_error`
-- `upper_limit = combined_difference + 1.96 * combined_standard_error`
+For each group, calculate:
 
-The lower and upper limits form the approximate 95% confidence interval. Use exactly `1.96` as the multiplier. This is a common-effect inverse-variance analysis: for this exercise, assume the studies estimate a common underlying effect and treat the groups and studies as independent. 
+(Standard Deviation × Standard Deviation) ÷ number of students
+
+Add the two group results to get the school's variance.
+
+**Weight**
+
+1 ÷ variance
+
+### 2. Combine the schools
+
+Add the three weights to get the **total weight**.
+
+Multiply each school's difference by its weight. Add these three products, then divide by the total weight:
+
+**Combined difference = total of the three products ÷ total weight**
+
+### 3. Calculate the uncertainty
+
+**Standard error = square root of (1 ÷ total weight)**
+
+**Margin = 1.96 × standard error**
+
+**Lower limit = combined difference − margin**
+
+**Upper limit = combined difference + margin**
+
+The limits form the approximate 95% confidence interval.
+
+For this exercise, assume the studies estimate the same underlying effect and treat the groups and studies as independent.
+
+### Show your work
 
 Show the extracted numbers and their source tables, each school's difference, variance and weight, and the combined result and confidence interval. Explain the finding and uncertainty in your own words.
 
