@@ -6,8 +6,8 @@ These are fictional studies created for this exercise.
 
 Each of the three schools compared two groups of students.
 
-- One group of students used practice questions to prepare for a test.
-- The other group prepared for the test by rereading their notes instead.
+- One group of students used practice questions to prepare for an exam.
+- The other group prepared for the exam by rereading their notes instead.
 
 Both groups started with the same course materials. Students studied for the same amount of time over six weeks, then took the same exam.
 
@@ -35,7 +35,7 @@ For each of the two groups (the PRACTICE-QUESTION GROUP and REREADING GROUP) cal
 
 (Standard Deviation × Standard Deviation) ÷ number of students
 
-Add the two group results to get the variance of the school's estimated difference.
+Add the two amounts you just calculated to get the variance of the school's estimated difference.
 
 **[Weight](glossary.md#weight)**
 
