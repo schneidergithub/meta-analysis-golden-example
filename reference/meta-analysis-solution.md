@@ -1,12 +1,12 @@
 # Meta-analysis solution
 
-This analysis follows the [calculation card](../studies.md#calculation-card). Keep this meta-analysis solution out of the materials supplied during an attempt.
+This analysis follows the [calculation method](../studies.md#calculation-card). Keep this meta-analysis solution out of the materials supplied during an attempt.
 
 See the [shared glossary](../glossary.md) for explanations of the terms used below.
 
 ## Evidence
 
-Each school reports 50 students per group and a [sample standard deviation](../glossary.md#standard-deviation) of 10 in both groups. Each [school's estimated difference](../glossary.md#schools-estimated-difference) is the practice-question group's [average score](../glossary.md#average-score) minus the rereading group's average score.
+Each school reports 50 students per group and a [sample standard deviation](../glossary.md#standard-deviation) of 10 in both groups. Each [school's estimated difference](../glossary.md#schools-estimated-difference) is the PRACTICE-QUESTION GROUP's [average score](../glossary.md#average-score) minus the REREADING GROUP's average score.
 
 | School | Source | Practice-question group average score | Rereading group average score | School's estimated difference in exam points |
 | --- | --- | ---: | ---: | ---: |
@@ -18,7 +18,8 @@ Each school reports 50 students per group and a [sample standard deviation](../g
 
 ### 1. Calculate each school's result
 
-The estimated differences are 6 points for Oak, 4 for Pine, and 8 for Maple.
+The students took an exam and were given a final score between 0 - 100.  The results use the words POINTS and PERCENT interchangeably when referencing the scores of student exam results.
+The estimated differences are 6 percent for Oak, 4 for Pine, and 8 for Maple.
 
 For each school, calculate:
 
@@ -44,7 +45,7 @@ The combined difference is **6 points**, with an approximate **[95% confidence i
 
 ## Interpretation
 
-Across the three schools, the practice-question groups scored an estimated 6 points higher on average than the rereading groups. The interval describes uncertainty in the combined difference under the calculation card's assumptions. It does not describe individual students' scores. These fictional results do not establish effectiveness in real schools.
+Across the three schools, the PRACTICE-QUESTION group scored an estimated 6% higher than the REREADING group. The interval describes uncertainty in the combined difference.
 
 ## Review
 
