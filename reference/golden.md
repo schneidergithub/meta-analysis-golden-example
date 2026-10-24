@@ -2,11 +2,13 @@
 
 This analysis follows the [Golden example 1 calculation card](../studies.md#golden-example-1-calculation-card). Keep this reference outside the inputs supplied during an attempt.
 
+See the [shared glossary](../glossary.md) for explanations of the terms used below.
+
 ## Evidence
 
-Each school reports 50 students per group and a sample standard deviation of 10 in both groups. Each difference is the practice-question group's average exam score minus the rereading group's average exam score.
+Each school reports 50 students per group and a sample standard deviation of 10 in both groups. Each school's estimated difference is the practice-question group's average exam score minus the rereading group's average exam score.
 
-| School | Source | Practice-question group average | Rereading group average | Difference in exam points |
+| School | Source | Practice-question group average score | Rereading group average score | School's estimated difference in exam points |
 | --- | --- | ---: | ---: | ---: |
 | Oak | Table O1 | 76 | 70 | 6 |
 | Pine | Table P1 | 74 | 70 | 4 |
@@ -16,18 +18,19 @@ Each school reports 50 students per group and a sample standard deviation of 10 
 
 ### 1. Calculate each school's result
 
-The differences are 6 points for Oak, 4 for Pine, and 8 for Maple.
+The estimated differences are 6 points for Oak, 4 for Pine, and 8 for Maple.
 
 For each school, calculate:
 
-- Each group's contribution to the variance: (10 × 10) ÷ 50 = 2
-- **Variance:** 2 + 2 = 4
+- Each group's contribution to the variance of the estimated difference: (10 × 10) ÷ 50 = 2
+- **Variance of the estimated difference:** 2 + 2 = 4
 - **Weight:** 1 ÷ 4 = 0.25
 
 ### 2. Combine the schools
 
 - **Total weight:** 0.25 + 0.25 + 0.25 = 0.75
-- **Total of the three products:** (6 × 0.25) + (4 × 0.25) + (8 × 0.25) = 4.5
+- **Weighted differences:** Oak: 6 × 0.25 = 1.5; Pine: 4 × 0.25 = 1; Maple: 8 × 0.25 = 2
+- **Sum of the weighted differences:** 1.5 + 1 + 2 = 4.5
 - **Combined difference:** 4.5 ÷ 0.75 = 6 points
 
 ### 3. Calculate the uncertainty
@@ -45,6 +48,6 @@ Across the three schools, the practice-question groups scored an estimated 6 poi
 
 ## Review
 
-Check the source values and calculation steps as well as the final result. Equal weights make the combined estimate equal to a simple average, so an answer of 6 alone is insufficient.
+Check the steps as well as the answer: several shortcuts also produce 6. Here, equal weights make the combined estimate equal to a simple average.
 
-Accept equivalent arithmetic and explanations in the assignee's own words. Record missing work, calculation errors, and departures from the specified method separately.
+Accept equivalent arithmetic and explanations in the participant's own words. Record missing work, calculation errors, and departures from the specified method separately.

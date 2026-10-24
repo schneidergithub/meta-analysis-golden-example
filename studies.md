@@ -4,53 +4,60 @@ These are fictional studies created for this exercise.
 
 ## Shared study conditions
 
-The experiment compares 2 different groups of students, from 3 different schools: 
--  One group of students used practice questions to prepare for a test.
--  The other group prepared for the test by rereading their notes instead. 
+Each of the three schools compared two groups of students.
+
+- One group of students used practice questions to prepare for a test.
+- The other group prepared for the test by rereading their notes instead.
 
 Both groups started with the same course materials. Students studied for the same amount of time over six weeks, then took the same exam.
 
 Within each school, 100 students were randomly assigned, 50 to practice questions and 50 to rereading notes.
 
-The tables report group averages and sample standard deviations.
+The tables report each group's average score and sample standard deviation.
 
 ## Golden example 1 calculation card
 
 Use all three schools.
 
+See the [shared glossary](glossary.md) for explanations of the terms used below.
+
 ### 1. Calculate each school's result
 
-**Difference**
+**School's estimated difference**
 
 Practice-question group's average score − rereading group's average score
 
 A positive difference means the practice-question group scored higher on average.
 
-**Variance**
+**Variance of the estimated difference**
 
 For each group, calculate:
 
 (Standard Deviation × Standard Deviation) ÷ number of students
 
-Add the two group results to get the school's variance.
+Add the two group results to get the variance of the school's estimated difference.
 
 **Weight**
 
-1 ÷ variance
+1 ÷ variance of the estimated difference
 
 ### 2. Combine the schools
 
 Add the three weights to get the **total weight**.
 
-Multiply each school's difference by its weight. Add these three products, then divide by the total weight:
+Multiply each school's estimated difference by its weight to get its **weighted difference**. Add the three weighted differences, then divide by the total weight:
 
-**Combined difference = total of the three products ÷ total weight**
+**Combined difference = sum of the weighted differences ÷ total weight**
 
 ### 3. Calculate the uncertainty
 
 **Standard error = square root of (1 ÷ total weight)**
 
+This measures the uncertainty in the combined difference.
+
 **Margin = 1.96 × standard error**
+
+Subtract and add this amount to get the interval limits.
 
 **Lower limit = combined difference − margin**
 
@@ -62,7 +69,7 @@ For this exercise, assume the studies estimate the same underlying effect and tr
 
 ### Show your work
 
-Show the extracted numbers and their source tables, each school's difference, variance and weight, and the combined result and confidence interval. Explain the finding and uncertainty in your own words.
+Show the source values and their tables. For each school, show its estimated difference, variance of the estimated difference, and weight. Then show the weighted differences, combined difference, and confidence interval. Explain the finding and uncertainty in your own words.
 
 ## Oak School
 
@@ -75,7 +82,7 @@ Show the extracted numbers and their source tables, each school's difference, va
 
 ## Pine School
 
-**Table P1. Pine School exam results**
+**Table P1. Pine School exam results after six weeks**
 
 | Study method | Students | Average score | Standard Deviation |
 | --- | ---: | ---: | ---: |
@@ -84,7 +91,7 @@ Show the extracted numbers and their source tables, each school's difference, va
 
 ## Maple School
 
-**Table M1. Maple School exam results**
+**Table M1. Maple School exam results after six weeks**
 
 | Study method | Students | Average score | Standard Deviation |
 | --- | ---: | ---: | ---: |
