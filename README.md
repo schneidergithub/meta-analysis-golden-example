@@ -7,7 +7,7 @@ A [meta-analysis](glossary.md#meta-analysis) exercise about combining results fr
 | [instruction.md](instruction.md) | The instructions for the task. |
 | [studies.md](studies.md) | Three studies and the calculation card. |
 | [glossary.md](glossary.md) | Explanations of terms used in the exercise. |
-| [Meta-analysis solution](reference/golden.md) | The calculations and an example explanation of the results. |
+| [reference/meta-analysis-solution.md](reference/meta-analysis-solution.md) | The calculations and an example explanation of the results. |
 
 The participant is the person or model completing this meta-analysis task. This exercise checks whether the participant can find the relevant numbers from the reported results of the experiment and follow the [calculation card](studies.md#calculation-card) to combine them. The meta-analysis solution shows the expected result.
 
