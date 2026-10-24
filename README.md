@@ -1,15 +1,15 @@
 # Combining study results
 
-A [meta-analysis](glossary.md#meta-analysis) combines results from separate studies. Here is an example:
+A [meta-analysis](glossary.md#meta-analysis) combines results from separate [research studies](glossary.md#research-study). Here is an example:
 
 Three fictional schools taught the same course. At each school, 100 students were taught the same material, the same way.  At the end of the course, they were all given the same final exam.  
 
-Before the final exam, each study splits students into two groups. One group is given time to prepare for the final exam by using practice questions.  The other group prepares by rereading their notes from class. Students prepared for six weeks, then took the same exam.  The hypothesis is that a group of students who use practice questions to study, they will perform better. We will combine the exam results to see whether they support this expectation.
+At each school, students were randomly assigned to two groups. One group is given time to prepare for the final exam by using practice questions.  The other group prepares by rereading their notes from class. Students prepared for six weeks, then took the same exam.  We expect students who prepare using practice questions to score higher than students who reread their notes. We will combine the exam results to see whether they support this expectation.
 
 | File | Purpose |
 | --- | --- |
 | [instruction.md](instruction.md) | The instructions for this meta-analysis task. |
-| [studies.md](studies.md) | The supplied studies and the calculation method. |
+| [studies.md](studies.md) | Three study summaries and the calculation method. |
 | [glossary.md](glossary.md) | Explanations of terms used in this repo. |
 | [reference/meta-analysis-solution.md](reference/meta-analysis-solution.md) | The calculations and an example meta-analysis result. |
 

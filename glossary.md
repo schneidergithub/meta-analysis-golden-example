@@ -6,6 +6,10 @@ Terms used in the calculation method and meta-analysis solution.
 
 Combining results from separate studies to find what they show overall.
 
+## Research study
+
+An investigation designed to answer a question. In this exercise, each school compares two ways of preparing for an exam.
+
 ## Average score
 
 The total of a group's scores divided by the number of students.

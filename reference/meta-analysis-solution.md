@@ -45,7 +45,7 @@ The combined difference is **6 points**, with an approximate **[95% confidence i
 
 ## Interpretation
 
-Across the three schools, the **practice-question group** scored an estimated 6 points higher on average than the **rereading group**. The interval describes uncertainty in the combined difference.
+Across the three schools, the **practice-question groups** scored an estimated 6 points higher on average than the **rereading groups**. The interval describes uncertainty in the combined difference.
 
 ## Review
 

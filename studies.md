@@ -1,15 +1,15 @@
-# Supplied studies
+# Research study summaries
 
-These are fictional studies created for this exercise. Each school represents one study.
+These are summaries of three fictional [research studies](glossary.md#research-study), one at each school.
 
-## Shared study conditions
+## What was the same at all three schools
 
 Each of the three schools compared two groups of students.
 
 - One group of students used practice questions to prepare for an exam.
 - The other group prepared for the exam by rereading their notes instead.
 
-Both groups started with the same course materials. Students studied for the same amount of time over six weeks, then took the same exam.
+Both groups started with the same course materials. Both groups spent the same amount of time preparing for the exam over six weeks. They then took the same exam.
 
 Within each school, 100 students were randomly assigned, 50 to practice questions and 50 to rereading notes.
 
