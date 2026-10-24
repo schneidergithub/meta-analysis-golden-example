@@ -15,9 +15,7 @@ Within each school, 100 students were randomly assigned, 50 to practice question
 
 The tables report each group's [average score](glossary.md#average-score) and [sample standard deviation](glossary.md#standard-deviation).
 
-## Calculation card
-
-Use all three schools.
+## Calculation Method
 
 See the [shared glossary](glossary.md) for explanations of the terms used below.
 
@@ -25,13 +23,15 @@ See the [shared glossary](glossary.md) for explanations of the terms used below.
 
 **[School's estimated difference](glossary.md#schools-estimated-difference)**
 
-Practice-question group's average score − rereading group's average score
+Compare:
 
-A positive difference means the practice-question group scored higher on average.
+PRACTICE-QUESTION GROUP's average score 
+
+REREADING GROUP's average score
 
 **[Variance of the estimated difference](glossary.md#variance-of-the-estimated-difference)**
 
-For each of the two groups at that school, calculate:
+For each of the two groups (the PRACTICE-QUESTION GROUP and REREADING GROUP) calculate:
 
 (Standard Deviation × Standard Deviation) ÷ number of students
 
@@ -57,7 +57,7 @@ This measures the uncertainty in the combined difference.
 
 **[Margin](glossary.md#margin) = 1.96 × standard error**
 
-Subtract and add this amount to get the interval limits.
+Calculate the interval limits.
 
 **Lower limit = combined difference − margin**
 
