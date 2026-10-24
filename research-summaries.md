@@ -6,8 +6,8 @@ These [research summaries](glossary.md#research-summary) describe three fictiona
 
 Each of the three schools compared two groups of students.
 
-- One group of students used practice questions to prepare for an exam.
-- The other group prepared for the exam by rereading their notes instead.
+- One group of students used PRACTICE QUESTIONS to prepare for an exam.
+- The other group prepared for the exam by REREADING their notes instead.
 
 Both groups started with the same course materials. Both groups spent the same amount of time preparing for the exam over six weeks. They then took the same exam.
 
@@ -23,11 +23,7 @@ See the [shared glossary](glossary.md) for explanations of the terms used below.
 
 **[School's estimated difference](glossary.md#schools-estimated-difference)**
 
-> **School's estimated difference =**<br>
-> **Practice-question group**'s average score<br>
-> − **Rereading group**'s average score
-
-A positive difference means the practice-question group scored higher on average.
+> **School's estimated difference = (**PRACTICE-QUESTION GROUP**'s average score) − (**REREADING GROUP**'s average score)
 
 **[Variance of the estimated difference](glossary.md#variance-of-the-estimated-difference)**
 
