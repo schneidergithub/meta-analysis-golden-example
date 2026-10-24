@@ -12,9 +12,9 @@ Both groups started with the same course materials. Students studied for the sam
 
 Within each school, 100 students were randomly assigned, 50 to practice questions and 50 to rereading notes.
 
-The tables report group averages and sample standard deviations (SDs).
+The tables report group averages and sample standard deviations.
 
-## G01 calculation card
+## Golden example 1 calculation card
 
 This example measures whether you can extract the evidence and reproduce an analysis.
 
@@ -23,14 +23,14 @@ This example measures whether you can extract the evidence and reproduce an anal
 For each school, calculate:
 
 - `difference = practice_mean - rereading_mean`
-- `variance = (practice_standard_deviation * practice_standard_deviation) / practice_n + (rereading_standard_deviation * rereading_standard_deviation) / rereading_n`
+- `variance = (practice_standard_deviation * practice_standard_deviation) / practice_student_count + (rereading_standard_deviation * rereading_standard_deviation) / rereading_student_count`
 - `weight = 1 / variance`
 
 Then combine the three schools:
 
 - `total_weight = sum of the three weights`
 - `combined_difference = sum of (weight * difference) for the three schools / total_weight`
-- `combined_standard_error = sqrt(1 / total_weight)`
+- `combined_standard_error = square root of (1 / total_weight)`
 - `lower_limit = combined_difference - 1.96 * combined_standard_error`
 - `upper_limit = combined_difference + 1.96 * combined_standard_error`
 
@@ -42,7 +42,7 @@ Show the extracted numbers and their source tables, each school's difference, va
 
 **Table O1. Oak School exam results after six weeks**
 
-| Study method | Students | Average score | SD |
+| Study method | Students | Average score | Standard Deviation |
 | --- | ---: | ---: | ---: |
 | Practice questions | 50 | 76 | 10 |
 | Rereading notes | 50 | 70 | 10 |
@@ -51,7 +51,7 @@ Show the extracted numbers and their source tables, each school's difference, va
 
 **Table P1. Pine School exam results**
 
-| Study method | Students | Average score | SD |
+| Study method | Students | Average score | Standard Deviation |
 | --- | ---: | ---: | ---: |
 | Practice questions | 50 | 74 | 10 |
 | Rereading notes | 50 | 70 | 10 |
@@ -60,7 +60,7 @@ Show the extracted numbers and their source tables, each school's difference, va
 
 **Table M1. Maple School exam results**
 
-| Study method | Students | Average score | SD |
+| Study method | Students | Average score | Standard Deviation |
 | --- | ---: | ---: | ---: |
 | Practice questions | 50 | 78 | 10 |
 | Rereading notes | 50 | 70 | 10 |

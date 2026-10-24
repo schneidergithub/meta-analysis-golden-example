@@ -1,10 +1,10 @@
 # Golden reference
 
-This analysis follows the [G01 calculation card](../studies.md#g01-calculation-card). Keep this reference outside the inputs supplied during an attempt.
+This analysis follows the [Golden example 1 calculation card](../studies.md#golden-example-1-calculation-card). Keep this reference outside the inputs supplied during an attempt.
 
 ## Evidence
 
-Each school reports 50 students per group and an SD of 10 in both groups. Differences are practice minus rereading, in exam points.
+Each school reports 50 students per group and a sample standard deviation of 10 in both groups. Differences are practice minus rereading, in exam points.
 
 | School | Source | Practice mean | Rereading mean | Difference |
 | --- | --- | ---: | ---: | ---: |
@@ -23,9 +23,9 @@ Combine the three schools:
 
 - `total_weight = 0.25 + 0.25 + 0.25 = 0.75`
 - `combined_difference = (0.25 * 6 + 0.25 * 4 + 0.25 * 8) / 0.75 = 6`
-- `combined_standard_error = sqrt(1 / 0.75)`
-- `lower_limit = 6 - 1.96 * sqrt(1 / 0.75)`
-- `upper_limit = 6 + 1.96 * sqrt(1 / 0.75)`
+- `combined_standard_error = square root of (1 / 0.75)`
+- `lower_limit = 6 - 1.96 * combined_standard_error`
+- `upper_limit = 6 + 1.96 * combined_standard_error`
 
 The combined difference is **6 points**, with an approximate **95% confidence interval of 3.74 to 8.26 points**. The interval limits are rounded here for display.
 

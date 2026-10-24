@@ -10,6 +10,6 @@ A task about combining results from three fictional studies.
 
 The studies compare practice questions with rereading notes.
 
-G01 measures whether the assignee can extract the evidence and reproduce the analysis specified in the calculation card in `studies.md`. The card supplies the method, formulas, and reporting precision; the golden reference works through the expected result. 
+Golden example 1 measures whether the assignee can extract the evidence and reproduce the analysis specified in the calculation card in `studies.md`. The card supplies the method and formulas; the golden reference works through the expected result.
 
 For a future attempt, supply only `instruction.md` and `studies.md`. Keep this README and `reference/golden.md` outside the participant's or model's accessible inputs. The repository itself does not enforce that separation.
