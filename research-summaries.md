@@ -23,7 +23,7 @@ See the [shared glossary](glossary.md) for explanations of the terms used below.
 
 **[School's estimated difference](glossary.md#schools-estimated-difference)**
 
-> **School's estimated difference = (**PRACTICE-QUESTION GROUP**'s average score) − (**REREADING GROUP**'s average score)
+> School's ESTIMATED_DIFFERENCE = (**PRACTICE QUESTION GROUP**'s average score) minus (**REREADING GROUP**'s average score)
 
 **[Variance of the estimated difference](glossary.md#variance-of-the-estimated-difference)**
 
