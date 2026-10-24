@@ -1,6 +1,6 @@
 # Meta-analysis solution
 
-This analysis follows the [calculation method](../studies.md#calculation-method). Keep this meta-analysis solution out of the materials supplied during an attempt.
+This analysis follows the [calculation method](../study-summaries.md#calculation-method). Keep this meta-analysis solution out of the materials supplied during an attempt.
 
 See the [shared glossary](../glossary.md) for explanations of the terms used below.
 

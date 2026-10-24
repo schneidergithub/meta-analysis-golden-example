@@ -9,12 +9,12 @@ At each school, students were randomly assigned to two groups. One group is give
 | File | Purpose |
 | --- | --- |
 | [instruction.md](instruction.md) | The instructions for this meta-analysis task. |
-| [studies.md](studies.md) | Three study summaries and the calculation method. |
+| [study-summaries.md](study-summaries.md) | Three study summaries and the calculation method. |
 | [glossary.md](glossary.md) | Explanations of terms used in this repo. |
 | [reference/meta-analysis-solution.md](reference/meta-analysis-solution.md) | The calculations and an example meta-analysis result. |
 
-The participant is the person or AI completing this meta-analysis task. This exercise checks whether the participant can identify the relevant study results and follow the [calculation method](studies.md#calculation-method) to combine them. The meta-analysis solution shows the expected final answer of the meta-analysis.
+The participant is the person or AI completing this meta-analysis task. This exercise checks whether the participant can identify the relevant study results and follow the [calculation method](study-summaries.md#calculation-method) to combine them. The meta-analysis solution shows the expected final answer of the meta-analysis.
 
-Give the participant only `instruction.md`, `studies.md`, and `glossary.md`.
+Give the participant only `instruction.md`, `study-summaries.md`, and `glossary.md`.
 Keep this overview and the meta-analysis solution out of the materials they can access. 
 This repo does not enforce that yet.
