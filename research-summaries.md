@@ -1,6 +1,6 @@
-# Research study summaries
+# Research summaries
 
-These are summaries of three fictional [research studies](glossary.md#research-study), one at each school.
+These [research summaries](glossary.md#research-summary) describe three fictional [research studies](glossary.md#research-study), one at each school. These summaries are the “supplied studies” mentioned in the instructions.
 
 ## What was the same at all three schools
 
@@ -41,7 +41,7 @@ Add the two amounts you just calculated to get the variance of the school's esti
 
 Weight = 1 ÷ variance of the estimated difference
 
-### 2. Combine the schools
+### 2. Combine the estimated differences
 
 Add the three weights to get the **[total weight](glossary.md#total-weight)**.
 

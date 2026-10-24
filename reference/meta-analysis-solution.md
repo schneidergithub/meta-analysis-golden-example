@@ -1,6 +1,6 @@
 # Meta-analysis solution
 
-This analysis follows the [calculation method](../study-summaries.md#calculation-method). Keep this meta-analysis solution out of the materials supplied during an attempt.
+This analysis follows the [calculation method](../research-summaries.md#calculation-method). Keep this meta-analysis solution out of the materials supplied during an attempt.
 
 See the [shared glossary](../glossary.md) for explanations of the terms used below.
 
@@ -10,9 +10,9 @@ Each school reports 50 students per group and a [sample standard deviation](../g
 
 | School | Source | Practice-question group average score | Rereading group average score | School's estimated difference in exam points |
 | --- | --- | ---: | ---: | ---: |
-| Oak | Table O1 | 76 | 70 | 6 |
-| Pine | Table P1 | 74 | 70 | 4 |
-| Maple | Table M1 | 78 | 70 | 8 |
+| Oak | [Table O1](../research-summaries.md#oak-school) | 76 | 70 | 6 |
+| Pine | [Table P1](../research-summaries.md#pine-school) | 74 | 70 | 4 |
+| Maple | [Table M1](../research-summaries.md#maple-school) | 78 | 70 | 8 |
 
 ## Analysis
 
@@ -27,7 +27,7 @@ For each school, calculate:
 - **[Variance of the estimated difference](../glossary.md#variance-of-the-estimated-difference):** 2 + 2 = 4
 - **[Weight](../glossary.md#weight):** 1 ÷ 4 = 0.25
 
-### 2. Combine the schools
+### 2. Combine the estimated differences
 
 - **[Total weight](../glossary.md#total-weight):** 0.25 + 0.25 + 0.25 = 0.75
 - **[Weighted differences](../glossary.md#weighted-difference):** Oak: 6 × 0.25 = 1.5; Pine: 4 × 0.25 = 1; Maple: 8 × 0.25 = 2

@@ -4,11 +4,15 @@ Terms used in the calculation method and meta-analysis solution.
 
 ## Meta-analysis
 
-Combining results from separate studies to find what they show overall.
+Combining results from separate research studies to find what they show overall.
 
 ## Research study
 
 An investigation designed to answer a question. In this exercise, each school compares two ways of preparing for an exam.
+
+## Research summary
+
+A short description of a research study and its results.
 
 ## Average score
 
