@@ -6,7 +6,7 @@ See the [shared glossary](../glossary.md) for explanations of the terms used bel
 
 ## Evidence
 
-Each school reports 50 students per group and a [sample standard deviation](../glossary.md#standard-deviation) of 10 in both groups. Each [school's estimated difference](../glossary.md#schools-estimated-difference) is the PRACTICE-QUESTION GROUP's [average score](../glossary.md#average-score) minus the REREADING GROUP's average score.
+Each school reports 50 students per group and a [sample standard deviation](../glossary.md#standard-deviation) of 10 in both groups. Each [school's estimated difference](../glossary.md#schools-estimated-difference) is the **practice-question group**'s [average score](../glossary.md#average-score) minus the **rereading group**'s average score.
 
 | School | Source | Practice-question group average score | Rereading group average score | School's estimated difference in exam points |
 | --- | --- | ---: | ---: | ---: |
@@ -45,7 +45,7 @@ The combined difference is **6 points**, with an approximate **[95% confidence i
 
 ## Interpretation
 
-Across the three schools, the PRACTICE-QUESTION group scored an estimated 6% higher than the REREADING group. The interval describes uncertainty in the combined difference.
+Across the three schools, the **practice-question group** scored an estimated 6% higher than the **rereading group**. The interval describes uncertainty in the combined difference.
 
 ## Review
 

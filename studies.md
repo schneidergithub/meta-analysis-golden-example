@@ -25,13 +25,13 @@ See the [shared glossary](glossary.md) for explanations of the terms used below.
 
 Compare:
 
-PRACTICE-QUESTION GROUP's average score 
+**Practice-question group**'s average score
 
-REREADING GROUP's average score
+**Rereading group**'s average score
 
 **[Variance of the estimated difference](glossary.md#variance-of-the-estimated-difference)**
 
-For each of the two groups (the PRACTICE-QUESTION GROUP and REREADING GROUP) calculate:
+For each of the two groups (the **practice-question group** and **rereading group**) calculate:
 
 (Standard Deviation × Standard Deviation) ÷ number of students
 
@@ -69,7 +69,7 @@ For this calculation, assume the actual difference between the two study methods
 
 ### Show your work
 
-Show the source values and their tables. For each school, show its estimated difference, variance of the estimated difference, and weight. Then show the weighted differences, combined difference, and confidence interval. Explain the finding and uncertainty in your own words.
+List the numbers you used and name the table each came from. For each school, show its estimated difference, variance of the estimated difference, and weight. Then show the weighted differences, combined difference, and confidence interval. Explain the finding and uncertainty in your own words.
 
 ## Oak School
 

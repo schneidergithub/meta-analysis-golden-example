@@ -4,7 +4,7 @@ A [meta-analysis](glossary.md#meta-analysis) combines results from separate stud
 
 Three fictional schools taught the same course. At each school, 100 students were taught the same material, the same way.  At the end of the course, they were all given the same final exam.  
 
-Before the final exam, the experiment splits students into two groups. One group is given time to prepare for the final exam by using PRACTICE QUESTIONS.  The other group prepares by REREADING their notes from class. Students prepared for six weeks, then took the same exam.  The hypothesis is that a group of students who use practice questions to study, they will perform better. We will combine the exam results to see whether they support this expectation.
+Before the final exam, the experiment splits students into two groups. One group is given time to prepare for the final exam by using practice questions.  The other group prepares by rereading their notes from class. Students prepared for six weeks, then took the same exam.  The hypothesis is that a group of students who use practice questions to study, they will perform better. We will combine the exam results to see whether they support this expectation.
 
 | File | Purpose |
 | --- | --- |
