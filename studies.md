@@ -13,9 +13,9 @@ Both groups started with the same course materials. Students studied for the sam
 
 Within each school, 100 students were randomly assigned, 50 to practice questions and 50 to rereading notes.
 
-The tables report each group's average score and sample standard deviation.
+The tables report each group's [average score](glossary.md#average-score) and [sample](glossary.md#sample) [standard deviation](glossary.md#standard-deviation).
 
-## Golden example 1 calculation card
+## Calculation card
 
 Use all three schools.
 
@@ -23,13 +23,13 @@ See the [shared glossary](glossary.md) for explanations of the terms used below.
 
 ### 1. Calculate each school's result
 
-**School's estimated difference**
+**[School's estimated difference](glossary.md#schools-estimated-difference)**
 
 Practice-question group's average score − rereading group's average score
 
 A positive difference means the practice-question group scored higher on average.
 
-**Variance of the estimated difference**
+**[Variance of the estimated difference](glossary.md#variance-of-the-estimated-difference)**
 
 For each group, calculate:
 
@@ -37,25 +37,25 @@ For each group, calculate:
 
 Add the two group results to get the variance of the school's estimated difference.
 
-**Weight**
+**[Weight](glossary.md#weight)**
 
 1 ÷ variance of the estimated difference
 
 ### 2. Combine the schools
 
-Add the three weights to get the **total weight**.
+Add the three weights to get the **[total weight](glossary.md#total-weight)**.
 
-Multiply each school's estimated difference by its weight to get its **weighted difference**. Add the three weighted differences, then divide by the total weight:
+Multiply each school's estimated difference by its weight to get its **[weighted difference](glossary.md#weighted-difference)**. Add the three weighted differences, then divide by the total weight:
 
-**Combined difference = sum of the weighted differences ÷ total weight**
+**[Combined difference](glossary.md#combined-difference) = sum of the weighted differences ÷ total weight**
 
 ### 3. Calculate the uncertainty
 
-**Standard error = square root of (1 ÷ total weight)**
+**[Standard error](glossary.md#standard-error) = square root of (1 ÷ total weight)**
 
 This measures the uncertainty in the combined difference.
 
-**Margin = 1.96 × standard error**
+**[Margin](glossary.md#margin) = 1.96 × standard error**
 
 Subtract and add this amount to get the interval limits.
 
@@ -63,9 +63,9 @@ Subtract and add this amount to get the interval limits.
 
 **Upper limit = combined difference + margin**
 
-The limits form the approximate 95% confidence interval.
+The limits form the approximate [95% confidence interval](glossary.md#95-confidence-interval).
 
-For this exercise, assume the studies estimate the same underlying effect and treat the groups and studies as independent.
+For this calculation, assume the actual difference between the two study methods is the same at all three schools, even though their reported results differ. Treat results from different groups and schools as [independent](glossary.md#independent-results).
 
 ### Show your work
 

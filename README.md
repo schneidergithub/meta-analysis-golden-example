@@ -1,16 +1,16 @@
-# Meta-analysis golden example
+# Combining study results
 
-A task about combining results from three fictional studies.
+A [meta-analysis](glossary.md#meta-analysis) exercise about combining results from three fictional studies.
 
 | File | Purpose |
 | --- | --- |
 | [instruction.md](instruction.md) | The instructions for the task. |
 | [studies.md](studies.md) | Three studies and the calculation card. |
-| [glossary.md](glossary.md) | Shared terminology for the calculation card and worked reference answer. |
-| [reference/golden.md](reference/golden.md) | The worked reference answer, including calculations and an example interpretation. |
+| [glossary.md](glossary.md) | Explanations of terms used in the exercise. |
+| [Worked answer](reference/golden.md) | The calculations and an example explanation of the results. |
 
 The studies compare practice questions with rereading notes.
 
-The participant is the person or model completing the task. Golden example 1 measures whether the participant can extract the evidence and reproduce the analysis specified in the calculation card in `studies.md`. The card supplies the method and formulas; the worked reference answer shows the expected result.
+The participant is the person or model completing the task. This exercise checks whether the participant can find the relevant numbers in the studies and follow the [calculation card](studies.md#calculation-card) to combine them. The worked answer shows the expected result.
 
-For a future attempt, supply only `instruction.md`, `studies.md`, and `glossary.md`. Keep this overview and `reference/golden.md` outside the participant's accessible inputs. The repository itself does not enforce that separation.
+Give the participant only `instruction.md`, `studies.md`, and `glossary.md`. Keep this overview and the worked answer out of the materials they can access. The repository itself does not enforce that separation.

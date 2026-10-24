@@ -1,12 +1,12 @@
-# Golden reference
+# Worked answer
 
-This analysis follows the [Golden example 1 calculation card](../studies.md#golden-example-1-calculation-card). Keep this reference outside the inputs supplied during an attempt.
+This analysis follows the [calculation card](../studies.md#calculation-card). Keep this worked answer out of the materials supplied during an attempt.
 
 See the [shared glossary](../glossary.md) for explanations of the terms used below.
 
 ## Evidence
 
-Each school reports 50 students per group and a sample standard deviation of 10 in both groups. Each school's estimated difference is the practice-question group's average exam score minus the rereading group's average exam score.
+Each school reports 50 students per group and a [sample](../glossary.md#sample) [standard deviation](../glossary.md#standard-deviation) of 10 in both groups. Each [school's estimated difference](../glossary.md#schools-estimated-difference) is the practice-question group's [average score](../glossary.md#average-score) minus the rereading group's average score.
 
 | School | Source | Practice-question group average score | Rereading group average score | School's estimated difference in exam points |
 | --- | --- | ---: | ---: | ---: |
@@ -23,24 +23,24 @@ The estimated differences are 6 points for Oak, 4 for Pine, and 8 for Maple.
 For each school, calculate:
 
 - Each group's contribution to the variance of the estimated difference: (10 × 10) ÷ 50 = 2
-- **Variance of the estimated difference:** 2 + 2 = 4
-- **Weight:** 1 ÷ 4 = 0.25
+- **[Variance of the estimated difference](../glossary.md#variance-of-the-estimated-difference):** 2 + 2 = 4
+- **[Weight](../glossary.md#weight):** 1 ÷ 4 = 0.25
 
 ### 2. Combine the schools
 
-- **Total weight:** 0.25 + 0.25 + 0.25 = 0.75
-- **Weighted differences:** Oak: 6 × 0.25 = 1.5; Pine: 4 × 0.25 = 1; Maple: 8 × 0.25 = 2
+- **[Total weight](../glossary.md#total-weight):** 0.25 + 0.25 + 0.25 = 0.75
+- **[Weighted differences](../glossary.md#weighted-difference):** Oak: 6 × 0.25 = 1.5; Pine: 4 × 0.25 = 1; Maple: 8 × 0.25 = 2
 - **Sum of the weighted differences:** 1.5 + 1 + 2 = 4.5
-- **Combined difference:** 4.5 ÷ 0.75 = 6 points
+- **[Combined difference](../glossary.md#combined-difference):** 4.5 ÷ 0.75 = 6 points
 
 ### 3. Calculate the uncertainty
 
-- **Standard error:** square root of (1 ÷ 0.75)
-- **Margin:** 1.96 × square root of (1 ÷ 0.75)
+- **[Standard error](../glossary.md#standard-error):** square root of (1 ÷ 0.75)
+- **[Margin](../glossary.md#margin):** 1.96 × square root of (1 ÷ 0.75)
 - **Lower limit:** 6 − margin, approximately 3.74 points
 - **Upper limit:** 6 + margin, approximately 8.26 points
 
-The combined difference is **6 points**, with an approximate **95% confidence interval of 3.74 to 8.26 points**. The interval limits are rounded here for display.
+The combined difference is **6 points**, with an approximate **[95% confidence interval](../glossary.md#95-confidence-interval) of 3.74 to 8.26 points**. The interval limits are rounded here for display.
 
 ## Interpretation
 
@@ -50,4 +50,4 @@ Across the three schools, the practice-question groups scored an estimated 6 poi
 
 Check the steps as well as the answer: several shortcuts also produce 6. Here, equal weights make the combined estimate equal to a simple average.
 
-Accept equivalent arithmetic and explanations in the participant's own words. Record missing work, calculation errors, and departures from the specified method separately.
+Accept equivalent arithmetic and explanations in the participant's own words. Record missing work, calculation errors, and use of a different calculation method separately.
