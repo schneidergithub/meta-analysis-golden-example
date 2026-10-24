@@ -1,6 +1,6 @@
 # Supplied studies
 
-These are fictional studies created for this exercise.
+These are fictional studies created for this exercise. Each school represents one study.
 
 ## Shared study conditions
 
@@ -13,7 +13,7 @@ Both groups started with the same course materials. Students studied for the sam
 
 Within each school, 100 students were randomly assigned, 50 to practice questions and 50 to rereading notes.
 
-The tables report each group's [average score](glossary.md#average-score) and [sample standard deviation](glossary.md#standard-deviation).
+Exam scores range from 0 to 100 points. The tables report each group's [average score](glossary.md#average-score) and [sample standard deviation](glossary.md#standard-deviation), both in points.
 
 ## Calculation Method
 
@@ -23,11 +23,11 @@ See the [shared glossary](glossary.md) for explanations of the terms used below.
 
 **[School's estimated difference](glossary.md#schools-estimated-difference)**
 
-Compare:
+> **School's estimated difference =**<br>
+> **Practice-question group**'s average score<br>
+> − **Rereading group**'s average score
 
-**Practice-question group**'s average score
-
-**Rereading group**'s average score
+A positive difference means the practice-question group scored higher on average.
 
 **[Variance of the estimated difference](glossary.md#variance-of-the-estimated-difference)**
 
@@ -65,7 +65,7 @@ Calculate the interval limits.
 
 The limits form the approximate [95% confidence interval](glossary.md#95-confidence-interval).
 
-For this calculation, assume the actual difference between the two study methods is the same at all three schools, even though their reported results differ. Treat results from different groups and schools as [independent](glossary.md#independent-results).
+For this calculation, assume the actual difference between the two exam preparation methods is the same at all three schools, even though their reported results differ. Treat results from different groups and schools as [independent](glossary.md#independent-results).
 
 ### Show your work
 
@@ -75,7 +75,7 @@ List the numbers you used and name the table each came from. For each school, sh
 
 **Table O1. Oak School exam results after six weeks**
 
-| Study method | Students | Average score | Standard Deviation |
+| Exam preparation method | Students | Average score | Standard Deviation |
 | --- | ---: | ---: | ---: |
 | Practice questions | 50 | 76 | 10 |
 | Rereading notes | 50 | 70 | 10 |
@@ -84,7 +84,7 @@ List the numbers you used and name the table each came from. For each school, sh
 
 **Table P1. Pine School exam results after six weeks**
 
-| Study method | Students | Average score | Standard Deviation |
+| Exam preparation method | Students | Average score | Standard Deviation |
 | --- | ---: | ---: | ---: |
 | Practice questions | 50 | 74 | 10 |
 | Rereading notes | 50 | 70 | 10 |
@@ -93,7 +93,7 @@ List the numbers you used and name the table each came from. For each school, sh
 
 **Table M1. Maple School exam results after six weeks**
 
-| Study method | Students | Average score | Standard Deviation |
+| Exam preparation method | Students | Average score | Standard Deviation |
 | --- | ---: | ---: | ---: |
 | Practice questions | 50 | 78 | 10 |
 | Rereading notes | 50 | 70 | 10 |

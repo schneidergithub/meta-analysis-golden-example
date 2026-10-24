@@ -1,6 +1,6 @@
 # Meta-analysis solution
 
-This analysis follows the [calculation method](../studies.md#calculation-card). Keep this meta-analysis solution out of the materials supplied during an attempt.
+This analysis follows the [calculation method](../studies.md#calculation-method). Keep this meta-analysis solution out of the materials supplied during an attempt.
 
 See the [shared glossary](../glossary.md) for explanations of the terms used below.
 
@@ -18,8 +18,8 @@ Each school reports 50 students per group and a [sample standard deviation](../g
 
 ### 1. Calculate each school's result
 
-The students took an exam and were given a final score between 0 - 100.  The results use the words POINTS and PERCENT interchangeably when referencing the scores of student exam results.
-The estimated differences are 6 percent for Oak, 4 for Pine, and 8 for Maple.
+The students took an exam and were given a final score between 0 and 100 points.
+The estimated differences are 6 points for Oak, 4 for Pine, and 8 for Maple.
 
 For each school, calculate:
 
@@ -45,7 +45,7 @@ The combined difference is **6 points**, with an approximate **[95% confidence i
 
 ## Interpretation
 
-Across the three schools, the **practice-question group** scored an estimated 6% higher than the **rereading group**. The interval describes uncertainty in the combined difference.
+Across the three schools, the **practice-question group** scored an estimated 6 points higher on average than the **rereading group**. The interval describes uncertainty in the combined difference.
 
 ## Review
 
