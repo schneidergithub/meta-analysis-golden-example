@@ -13,7 +13,7 @@ Both groups started with the same course materials. Students studied for the sam
 
 Within each school, 100 students were randomly assigned, 50 to practice questions and 50 to rereading notes.
 
-The tables report each group's [average score](glossary.md#average-score) and [sample](glossary.md#sample) [standard deviation](glossary.md#standard-deviation).
+The tables report each group's [average score](glossary.md#average-score) and [sample standard deviation](glossary.md#standard-deviation).
 
 ## Calculation card
 
@@ -31,7 +31,7 @@ A positive difference means the practice-question group scored higher on average
 
 **[Variance of the estimated difference](glossary.md#variance-of-the-estimated-difference)**
 
-For each group, calculate:
+For each of the two groups at that school, calculate:
 
 (Standard Deviation × Standard Deviation) ÷ number of students
 
@@ -39,7 +39,7 @@ Add the two group results to get the variance of the school's estimated differen
 
 **[Weight](glossary.md#weight)**
 
-1 ÷ variance of the estimated difference
+Weight = 1 ÷ variance of the estimated difference
 
 ### 2. Combine the schools
 

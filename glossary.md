@@ -1,6 +1,6 @@
 # Shared glossary
 
-Terms used in the calculation card and worked answer.
+Terms used in the calculation card and meta-analysis solution.
 
 ## Meta-analysis
 
