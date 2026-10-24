@@ -24,7 +24,11 @@ Describes how spread out the students' scores are within a group. A sample stand
 
 ## School's estimated difference
 
-The practice-question group's average score minus the rereading group's average score at that school.
+At that school:
+
+> **Practice-question group**'s average score<br>
+> **minus**<br>
+> **Rereading group**'s average score
 
 ## Variance of the estimated difference
 
